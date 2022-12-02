@@ -1,0 +1,6 @@
+TO make Omni directional drive from diff drive change that drive class alone and it should work 
+
+https://github.com/ros-simulation/gazebo_ros_pkgs/blob/foxy/gazebo_plugins/src/gazebo_ros_diff_drive.cpp(244 line ref in noetic devel)
+this is for ros2 foxy diff drive modify this drive refering the ropod omni directional drive from the link below
+https://github.com/DharminB/ropod_sim/blob/master/ros/src/ropod_control_plugin.cpp(260)
+

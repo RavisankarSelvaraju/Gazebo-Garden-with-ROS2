@@ -4,3 +4,9 @@ https://github.com/ros-simulation/gazebo_ros_pkgs/blob/foxy/gazebo_plugins/src/g
 this is for ros2 foxy diff drive modify this drive refering the ropod omni directional drive from the link below
 https://github.com/DharminB/ropod_sim/blob/master/ros/src/ropod_control_plugin.cpp(260)
 
+to find path to that pkg
+
+             $ros2 pkg prefix <pkg> 
+
+
+https://github.com/turtlebot/turtlebot4/tree/humble/turtlebot4_description -->> for example and use this to implement the ignition with launch files and xacro files
